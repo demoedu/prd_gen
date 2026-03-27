@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const SITE_NAME = "Next.js Boilerplate";
+const SITE_NAME = "PRD Generator";
 const SITE_DESCRIPTION =
-  "Production-ready Next.js boilerplate with TypeScript, Tailwind CSS, and shadcn/ui";
+  "직장인을 위한 바이브 코딩 PRD(업무 요구사항 정의서) 생성기";
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
 
 export const metadata: Metadata = {
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     template: `%s | ${SITE_NAME}`,
   },
   description: SITE_DESCRIPTION,
-  keywords: ["Next.js", "React", "TypeScript", "Tailwind CSS", "shadcn/ui"],
+  keywords: ["PRD", "바이브코딩", "업무자동화", "요구사항정의서"],
   authors: [{ name: "Aiden Ahn" }],
   creator: "Aiden Ahn",
   openGraph: {
